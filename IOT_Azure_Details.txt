@@ -1,0 +1,47 @@
+iotwithdatascienceserver.database.windows.net
+IOT Azure Logins:
+iotazureuser
+azureuser@A11
+
+
+curl -X "POST" "https://rest.nexmo.com/sms/json/from=18664797424/text=A text message sent using the Vonage SMS API" \
+  -d "to=15734667123" \
+  -d "api_key=cf15a5ea" \
+  -d "api_secret=ZJ8wPv8RwYMDKVL1"
+
+cf15a5ea
+ZJ8wPv8RwYMDKVL1
+
+
+curl -X POST https://messages-sandbox.nexmo.com/v1/messages \
+-u 'cf15a5ea:ZJ8wPv8RwYMDKVL1' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-d '{
+    "from": { "type": "whatsapp", "number": "14157386102" },
+    "to": { "type": "whatsapp", "number": "$TO_NUMBER" },
+    "message": {
+      "content": {
+        "type": "text",
+        "text": "This is a WhatsApp Message sent from the Messages API"
+      }
+    }
+  }'
+
+
+curl -X "POST" "https://rest.nexmo.com/sms/json" \
+  -d "from=18664797424" \
+  -d "text=A text message sent using the Vonage SMS API" \
+  -d "to=15734667123" \
+  -d "api_key=cf15a5ea" \
+  -d "api_secret=ZJ8wPv8RwYMDKVL1"
+
+https://rest.nexmo.com/sms/json?from=18664797424&text=A text message sent using the Vonage SMS API&to=14173994330&api_key=cf15a5ea&api_secret=ZJ8wPv8RwYMDKVL1
+
+"https://rest.nexmo.com/sms/json?from=18664797424&to=15734667123&api_key=cf15a5ea&api_secret=ZJ8wPv8RwYMDKVL1&text=Temperature=23MQ9=34MQ2=789LOAD=234"
+
+
+https://satishgunjal.com/multivariate_lr_scikit/
+
+
+
